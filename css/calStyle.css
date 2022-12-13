@@ -1,0 +1,82 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkgray;  
+}
+
+#space{
+    background-color:darkgoldenrod;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 300px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+#header{
+    display: grid;
+    grid-row: 1300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 100px;
+    
+}
+
+#instructions{
+    display: flex;
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+
+#container{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 300px 200px;
+
+}
+
+#radioOptions{
+    font-size: 40px;
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 20px 200px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    padding-left: 20px;
+    margin-top: 2px;
+}
+
+#fromTo{
+    grid-column: 2;
+    width:150px;  
+    padding-top: 30px; 
+}
+
+
+input{
+    font-weight: bold;
+    margin-top: 3px;
+}   
+
+label{
+    font-weight: bold;
+    padding-bottom: 3px;
+    font-size: 15px;
+}
+
+.btn{
+   width: 150px; 
+   background-color: darkgrey;
+   margin-top: 25px;
+   height:30px;
+}
+
+.valueboxes{
+    background-color: rgba(161, 205, 205, 0.758);
+    text-align: right;
+}
+
+
+
+
+
+

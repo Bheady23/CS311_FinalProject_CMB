@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/calstyle.css">
+  </head>
+<body>
+     <div id="space">
+
+        <div id="header">
+            <h>Unit Converter</h>
+        </div>
+
+        <div id="instructions">
+        
+            <p><span style="text-decoration: underline;">How to Convert:</span><br>
+            Choose a conversion option. Enter the value to convert into the From: box. <br>
+            Click on the convert button and your conversion will appear in the To: box. 
+            </p>
+        </div>
+
+        <div id="container">
+        
+            <div id="radioOptions">
+                <input type="radio" id="metersTOfeet" name="convertOps">
+                <label for="metersTOfeet">Meters to Feet</label>
+
+                <input type="radio" id="feetTOmeters" name="convertOps">
+                <label for="feetTOmeters">Feet to Meters</label>
+
+                <input type="radio" id="kilosTOmiles" name="convertOps">
+                <label for="kilosTOmiles">Kilometers to Miles</label>
+
+                <input type="radio" id="milesTOkilos" name="convertOps">
+                <label for="milesTOkilos">Miles to Kilometers</label>
+
+                <input type="radio" id="celsiusTOfahrenheit" name="convertOps">
+                <label for="celsiusTOfahrenheit">Celsius to Fahrenheit</label>
+
+                <input type="radio" id="fahrenheitTOcelsisus" name="convertOps">
+                <label for="fahrenheittoCelsisus">Fahrenheit to Celsius</label>
+
+                <input type="radio" id="kilogramTOpounds" name="convertOps">
+                <label for="kilogramTOpounds">Kilogram to Pounds</label>
+
+                <input type="radio" id="poundsTOkilogram" name="convertOps">
+                <label for="poundsTOkilogram">Pounds to Kilogram</label>
+
+                <input type="radio" id="gramsTOounces" name="convertOps">
+                <label for="gramsTOounces">Grams to Ounces</label>
+
+                <input type="radio" id="ouncesTOgrams" name="convertOps">
+                <label for="ouncesTOgrams">Ounces to Grams</label>
+
+            </div>
+
+            <div id="fromTo">
+                <label for="from"> From:</label>
+                <input type="text" id="from" class="valueboxes">
+        
+                <label for="to"> To: </label>
+                <input type="text" id="to" class="valueboxes">
+        
+                <input type="button" id="convert" value="CONVERT" class="btn"><br><br>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="js/calScript.js"></script>
+
+</body>
